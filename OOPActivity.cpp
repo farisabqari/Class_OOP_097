@@ -39,6 +39,13 @@ public:
 		cin >> namaMK;
 		cout << "Masukan SKS :";
 		cin >> sks;
+	
+	}
+	void tampil() {
+		cout << "\nData Matakuliah";
+		cout << "\nKode Matakuliah :" << kode;
+		cout << "\Nama Matakuliah :" << namaMK;
+		cout << "\nsks :" << sks;
+	}
+};
 
-	
-	
