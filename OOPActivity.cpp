@@ -16,3 +16,15 @@ public:
 		cin >> nilai;
 	}
 	void printData();
+};
+
+void Mahasiswa::printData() {
+	cout << "\nData Mahasiswa";
+	cout << "\nNIM : " << nim;
+	cout << "\Namanya : " << nama;
+	cout << "\Nnilai : " << nilai;
+
+
+
+
+
